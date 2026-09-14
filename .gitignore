@@ -1,0 +1,12 @@
+.env
+*.env
+__pycache__/
+.ipynb_checkpoints/
+.embedding_cache/
+*.npy
+*.pkl
+desktop.ini
+Modified Woman Fit Categorey Images/
+
+*.zip
+
