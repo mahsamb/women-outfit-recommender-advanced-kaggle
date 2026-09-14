@@ -2,7 +2,7 @@
 
 Extended outfit recommender for **large fashion catalogs** (hundreds/thousands of items per category). Uses CLIP embeddings with disk cache, top-K search, and flexible folder naming (`tshirt`/`tshirts`, `bag`/`bags`, etc.).
 
-Includes the bundled **`modified-woman-fit-categorey-images.zip`** sample dataset (~165 MB, stored with Git LFS).
+Includes the **`modified-woman-fit-categorey-images.zip`** sample dataset (~165 MB) as a [GitHub Release asset](https://github.com/mahsamb/women-outfit-recommender-advanced-kaggle/releases/latest).
 
 Companion project:
 - [women-outfit-recommender-kaggle](https://github.com/mahsamb/women-outfit-recommender-kaggle) — simpler baseline with the smaller `my_images` demo catalog
@@ -22,7 +22,7 @@ Companion project:
 
 | File | Description |
 |------|-------------|
-| `modified-woman-fit-categorey-images.zip` | Demo catalog (~165 MB, Git LFS) |
+| [`modified-woman-fit-categorey-images.zip`](https://github.com/mahsamb/women-outfit-recommender-advanced-kaggle/releases/latest) | Demo catalog (~165 MB, GitHub Release) |
 
 After unzip, layout is:
 
@@ -40,9 +40,10 @@ The notebook auto-extracts the zip on first local run if the folder is missing.
 
 ### Local / GitHub clone
 
-1. Clone with LFS: `git lfs install && git clone https://github.com/mahsamb/women-outfit-recommender-advanced-kaggle.git`
-2. Open [`women_outfit_recommender_advanced_kaggle_notebook.ipynb`](women_outfit_recommender_advanced_kaggle_notebook.ipynb).
-3. Run all cells — section 3 extracts the dataset zip automatically.
+1. Clone: `git clone https://github.com/mahsamb/women-outfit-recommender-advanced-kaggle.git`
+2. Download [`modified-woman-fit-categorey-images.zip`](https://github.com/mahsamb/women-outfit-recommender-advanced-kaggle/releases/latest) into the repo folder.
+3. Open [`women_outfit_recommender_advanced_kaggle_notebook.ipynb`](women_outfit_recommender_advanced_kaggle_notebook.ipynb).
+4. Run all cells — section 3 auto-extracts the zip if the catalog folder is missing.
 4. Set `REFERENCE_TSHIRT` or use the dropdown in section 4.
 
 ### Kaggle
